@@ -1,0 +1,766 @@
+
+/*
+  CSS Text Style By Graig Dev https://graigdev.com - @graigdev
+ */
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.overflow-clip {
+  text-overflow: clip;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.normal-case {
+  text-transform: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.select-none {
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.select-text {
+  -webkit-user-select: text;
+          user-select: text;
+}
+
+.select-all {
+  -webkit-user-select: all;
+          user-select: all;
+}
+
+.select-auto {
+  -webkit-user-select: auto;
+          user-select: auto;
+}
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.align-text-top {
+  vertical-align: text-top;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+
+
+.whitespace-normal {
+  white-space: normal;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.whitespace-pre {
+  white-space: pre;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+
+.focus-within\:underline:focus-within {
+  text-decoration: underline;
+}
+
+.focus-within\:line-through:focus-within {
+  text-decoration: line-through;
+}
+
+.focus-within\:no-underline:focus-within {
+  text-decoration: none;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+.hover\:line-through:hover {
+  text-decoration: line-through;
+}
+
+.hover\:no-underline:hover {
+  text-decoration: none;
+}
+
+.focus\:underline:focus {
+  text-decoration: underline;
+}
+
+.focus\:line-through:focus {
+  text-decoration: line-through;
+}
+
+.focus\:no-underline:focus {
+  text-decoration: none;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+
+.hover\:text-transparent:hover {
+  color: transparent;
+}
+
+.hover\:text-current:hover {
+  color: currentColor;
+}
+
+
+.hover\:text-black:hover {
+  --blip-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--blip-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --blip-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(249, 250, 251, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(243, 244, 246, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(229, 231, 235, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(209, 213, 219, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--blip-text-opacity));
+}
+
+.hover\:text-gray-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--blip-text-opacity));
+}
+
+.hover\:text-red-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(254, 242, 242, var(--blip-text-opacity));
+}
+
+.hover\:text-red-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(254, 226, 226, var(--blip-text-opacity));
+}
+
+.hover\:text-red-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(254, 202, 202, var(--blip-text-opacity));
+}
+
+.hover\:text-red-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(252, 165, 165, var(--blip-text-opacity));
+}
+
+.hover\:text-red-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(248, 113, 113, var(--blip-text-opacity));
+}
+
+.hover\:text-red-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--blip-text-opacity));
+}
+
+.hover\:text-red-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(220, 38, 38, var(--blip-text-opacity));
+}
+
+.hover\:text-red-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--blip-text-opacity));
+}
+
+.hover\:text-red-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(153, 27, 27, var(--blip-text-opacity));
+}
+
+.hover\:text-red-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(127, 29, 29, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(255, 251, 235, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(254, 243, 199, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(253, 230, 138, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(252, 211, 77, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(251, 191, 36, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(245, 158, 11, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(217, 119, 6, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(180, 83, 9, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(146, 64, 14, var(--blip-text-opacity));
+}
+
+.hover\:text-yellow-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(120, 53, 15, var(--blip-text-opacity));
+}
+
+.hover\:text-green-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(236, 253, 245, var(--blip-text-opacity));
+}
+
+.hover\:text-green-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(209, 250, 229, var(--blip-text-opacity));
+}
+
+.hover\:text-green-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(167, 243, 208, var(--blip-text-opacity));
+}
+
+.hover\:text-green-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(110, 231, 183, var(--blip-text-opacity));
+}
+
+.hover\:text-green-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(52, 211, 153, var(--blip-text-opacity));
+}
+
+.hover\:text-green-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(16, 185, 129, var(--blip-text-opacity));
+}
+
+.hover\:text-green-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(5, 150, 105, var(--blip-text-opacity));
+}
+
+.hover\:text-green-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(4, 120, 87, var(--blip-text-opacity));
+}
+
+.hover\:text-green-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(6, 95, 70, var(--blip-text-opacity));
+}
+
+.hover\:text-green-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(6, 78, 59, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(239, 246, 255, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(219, 234, 254, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(191, 219, 254, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(147, 197, 253, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(96, 165, 250, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(59, 130, 246, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(37, 99, 235, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(29, 78, 216, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(30, 64, 175, var(--blip-text-opacity));
+}
+
+.hover\:text-blue-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(30, 58, 138, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(238, 242, 255, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(224, 231, 255, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(199, 210, 254, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(165, 180, 252, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(129, 140, 248, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(99, 102, 241, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(79, 70, 229, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(67, 56, 202, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(55, 48, 163, var(--blip-text-opacity));
+}
+
+.hover\:text-indigo-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(49, 46, 129, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(245, 243, 255, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(237, 233, 254, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(221, 214, 254, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(196, 181, 253, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(167, 139, 250, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(139, 92, 246, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(124, 58, 237, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(109, 40, 217, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(91, 33, 182, var(--blip-text-opacity));
+}
+
+.hover\:text-purple-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(76, 29, 149, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-50:hover {
+  --blip-text-opacity: 1;
+  color: rgba(253, 242, 248, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-100:hover {
+  --blip-text-opacity: 1;
+  color: rgba(252, 231, 243, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-200:hover {
+  --blip-text-opacity: 1;
+  color: rgba(251, 207, 232, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-300:hover {
+  --blip-text-opacity: 1;
+  color: rgba(249, 168, 212, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-400:hover {
+  --blip-text-opacity: 1;
+  color: rgba(244, 114, 182, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-500:hover {
+  --blip-text-opacity: 1;
+  color: rgba(236, 72, 153, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-600:hover {
+  --blip-text-opacity: 1;
+  color: rgba(219, 39, 119, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-700:hover {
+  --blip-text-opacity: 1;
+  color: rgba(190, 24, 93, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-800:hover {
+  --blip-text-opacity: 1;
+  color: rgba(157, 23, 77, var(--blip-text-opacity));
+}
+
+.hover\:text-pink-900:hover {
+  --blip-text-opacity: 1;
+  color: rgba(131, 24, 67, var(--blip-text-opacity));
+}

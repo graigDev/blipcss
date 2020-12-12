@@ -1,0 +1,394 @@
+
+/*
+	CSS Scale By Graig Dev https://graigdev.com - @graigdev
+*/
+
+.scale-0 {
+  transform: scaleX(0);
+  transform: scaleY(0);
+}
+
+.scale-50 {
+  transform: scaleX(.5);
+  transform: scaleY(.5);
+}
+
+.scale-75 {
+  transform: scaleX(.75);
+  transform: scaleY(.75);
+}
+
+.scale-90 {
+  transform: scaleX(.9);
+  transform: scaleY(.9);
+}
+
+.scale-95 {
+  transform: scaleX(.95);
+  transform: scaleY(.95);
+}
+
+.scale-100 {
+  transform: scaleX(1);
+  transform: scaleY(1);
+}
+
+.scale-105 {
+  transform: scaleX(1.05);
+  transform: scaleY(1.05);
+}
+
+.scale-110 {
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+}
+
+.scale-125 {
+  transform: scaleX(1.25);
+  transform: scaleY(1.25);
+}
+
+.scale-150 {
+  transform: scaleX(1.5);
+  transform: scaleY(1.5);
+}
+
+.scale-x-0 {
+  transform: scaleX(0);
+}
+
+.scale-x-50 {
+  transform: scaleX(.5);
+}
+
+.scale-x-75 {
+  transform: scaleX(.75);
+}
+
+.scale-x-90 {
+  transform: scaleX(.9);
+}
+
+.scale-x-95 {
+  transform: scaleX(.95);
+}
+
+.scale-x-100 {
+  transform: scaleX(1);
+}
+
+.scale-x-105 {
+  transform: scaleX(1.05);
+}
+
+.scale-x-110 {
+  transform: scaleX(1.1);
+}
+
+.scale-x-125 {
+  transform: scaleX(1.25);
+}
+
+.scale-x-150 {
+  transform: scaleX(1.5);
+}
+
+.scale-y-0 {
+  transform: scaleY(0);
+}
+
+.scale-y-50 {
+  transform: scaleY(.5);
+}
+
+.scale-y-75 {
+  transform: scaleY(.75);
+}
+
+.scale-y-90 {
+  transform: scaleY(.9);
+}
+
+.scale-y-95 {
+  transform: scaleY(.95);
+}
+
+.scale-y-100 {
+  transform: scaleY(1);
+}
+
+.scale-y-105 {
+  transform: scaleY(1.05);
+}
+
+.scale-y-110 {
+  transform: scaleY(1.1);
+}
+
+.scale-y-125 {
+  transform: scaleY(1.25);
+}
+
+.scale-y-150 {
+  transform: scaleY(1.5);
+}
+
+.hover\:scale-0:hover {
+  transform: scaleX(0);
+  transform: scaleY(0);
+}
+
+.hover\:scale-50:hover {
+  transform: scaleX(.5);
+  transform: scaleY(.5);
+}
+
+.hover\:scale-75:hover {
+  transform: scaleX(.75);
+  transform: scaleY(.75);
+}
+
+.hover\:scale-90:hover {
+  transform: scaleX(.9);
+  transform: scaleY(.9);
+}
+
+.hover\:scale-95:hover {
+  transform: scaleX(.95);
+  transform: scaleY(.95);
+}
+
+.hover\:scale-100:hover {
+  transform: scaleX(1);
+  transform: scaleY(1);
+}
+
+.hover\:scale-105:hover {
+  transform: scaleX(1.05);
+  transform: scaleY(1.05);
+}
+
+.hover\:scale-110:hover {
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+}
+
+.hover\:scale-125:hover {
+  transform: scaleX(1.25);
+  transform: scaleY(1.25);
+}
+
+.hover\:scale-150:hover {
+  transform: scaleX(1.5);
+  transform: scaleY(1.5);
+}
+
+.hover\:scale-x-0:hover {
+  transform: scaleX(0);
+}
+
+.hover\:scale-x-50:hover {
+  transform: scaleX(.5);
+}
+
+.hover\:scale-x-75:hover {
+  transform: scaleX(.75);
+}
+
+.hover\:scale-x-90:hover {
+  transform: scaleX(.9);
+}
+
+.hover\:scale-x-95:hover {
+  transform: scaleX(.95);
+}
+
+.hover\:scale-x-100:hover {
+  transform: scaleX(1);
+}
+
+.hover\:scale-x-105:hover {
+  transform: scaleX(1.05);
+}
+
+.hover\:scale-x-110:hover {
+  transform: scaleX(1.1);
+}
+
+.hover\:scale-x-125:hover {
+  transform: scaleX(1.25);
+}
+
+.hover\:scale-x-150:hover {
+  transform: scaleX(1.5);
+}
+
+.hover\:scale-y-0:hover {
+  transform: scaleY(0);
+}
+
+.hover\:scale-y-50:hover {
+  transform: scaleY(.5);
+}
+
+.hover\:scale-y-75:hover {
+  transform: scaleY(.75);
+}
+
+.hover\:scale-y-90:hover {
+  transform: scaleY(.9);
+}
+
+.hover\:scale-y-95:hover {
+  transform: scaleY(.95);
+}
+
+.hover\:scale-y-100:hover {
+  transform: scaleY(1);
+}
+
+.hover\:scale-y-105:hover {
+  transform: scaleY(1.05);
+}
+
+.hover\:scale-y-110:hover {
+  transform: scaleY(1.1);
+}
+
+.hover\:scale-y-125:hover {
+  transform: scaleY(1.25);
+}
+
+.hover\:scale-y-150:hover {
+  transform: scaleY(1.5);
+}
+
+.focus\:scale-0:focus {
+  transform: scaleX(0);
+  transform: scaleY(0);
+}
+
+.focus\:scale-50:focus {
+  transform: scaleX(.5);
+  transform: scaleY(.5);
+}
+
+.focus\:scale-75:focus {
+  transform: scaleX(.75);
+  transform: scaleY(.75);
+}
+
+.focus\:scale-90:focus {
+  transform: scaleX(.9);
+  transform: scaleY(.9);
+}
+
+.focus\:scale-95:focus {
+  transform: scaleX(.95);
+  transform: scaleY(.95);
+}
+
+.focus\:scale-100:focus {
+  transform: scaleX(1);
+  transform: scaleY(1);
+}
+
+.focus\:scale-105:focus {
+  transform: scaleX(1.05);
+  transform: scaleY(1.05);
+}
+
+.focus\:scale-110:focus {
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+}
+
+.focus\:scale-125:focus {
+  transform: scaleX(1.25);
+  transform: scaleY(1.25);
+}
+
+.focus\:scale-150:focus {
+  transform: scaleX(1.5);
+  transform: scaleY(1.5);
+}
+
+.focus\:scale-x-0:focus {
+  transform: scaleX(0);
+}
+
+.focus\:scale-x-50:focus {
+  transform: scaleX(.5);
+}
+
+.focus\:scale-x-75:focus {
+  transform: scaleX(.75);
+}
+
+.focus\:scale-x-90:focus {
+  transform: scaleX(.9);
+}
+
+.focus\:scale-x-95:focus {
+  transform: scaleX(.95);
+}
+
+.focus\:scale-x-100:focus {
+  transform: scaleX(1);
+}
+
+.focus\:scale-x-105:focus {
+  transform: scaleX(1.05);
+}
+
+.focus\:scale-x-110:focus {
+  transform: scaleX(1.1);
+}
+
+.focus\:scale-x-125:focus {
+  transform: scaleX(1.25);
+}
+
+.focus\:scale-x-150:focus {
+  transform: scaleX(1.5);
+}
+
+.focus\:scale-y-0:focus {
+  transform: scaleY(0);
+}
+
+.focus\:scale-y-50:focus {
+  transform: scaleY(.5);
+}
+
+.focus\:scale-y-75:focus {
+  transform: scaleY(.75);
+}
+
+.focus\:scale-y-90:focus {
+  transform: scaleY(.9);
+}
+
+.focus\:scale-y-95:focus {
+  transform: scaleY(.95);
+}
+
+.focus\:scale-y-100:focus {
+  transform: scaleY(1);
+}
+
+.focus\:scale-y-105:focus {
+  transform: scaleY(1.05);
+}
+
+.focus\:scale-y-110:focus {
+  transform: scaleY(1.1);
+}
+
+.focus\:scale-y-125:focus {
+  transform: scaleY(1.25);
+}
+
+.focus\:scale-y-150:focus {
+  transform: scaleY(1.5);
+}

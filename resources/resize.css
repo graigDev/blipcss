@@ -1,0 +1,20 @@
+/*
+	CSS Resize By Graig Dev https://graigdev.com - @graigdev
+*/
+
+
+.resize-none {
+  resize: none;
+}
+
+.resize-y {
+  resize: vertical;
+}
+
+.resize-x {
+  resize: horizontal;
+}
+
+.resize {
+  resize: both;
+}

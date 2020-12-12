@@ -1,0 +1,964 @@
+
+/*
+	CSS  By Graig Dev https://graigdev.com - @graigdev
+*/
+
+:root{
+	--blip-placeholder-opacity: 1;
+}
+
+.placeholder-transparent::placeholder {
+  color: transparent;
+}
+
+.placeholder-current::placeholder {
+  color: currentColor;
+}
+
+.placeholder-black::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(0, 0, 0, var(--blip-placeholder-opacity));
+}
+
+.placeholder-white::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(255, 255, 255, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(249, 250, 251, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(243, 244, 246, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(229, 231, 235, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(209, 213, 219, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(156, 163, 175, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(107, 114, 128, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(75, 85, 99, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(55, 65, 81, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(31, 41, 55, var(--blip-placeholder-opacity));
+}
+
+.placeholder-gray-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(17, 24, 39, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 242, 242, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 226, 226, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 202, 202, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(252, 165, 165, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(248, 113, 113, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(239, 68, 68, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(220, 38, 38, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(185, 28, 28, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(153, 27, 27, var(--blip-placeholder-opacity));
+}
+
+.placeholder-red-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(127, 29, 29, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(255, 251, 235, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 243, 199, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(253, 230, 138, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(252, 211, 77, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(251, 191, 36, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(245, 158, 11, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(217, 119, 6, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(180, 83, 9, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(146, 64, 14, var(--blip-placeholder-opacity));
+}
+
+.placeholder-yellow-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(120, 53, 15, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(236, 253, 245, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(209, 250, 229, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(167, 243, 208, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(110, 231, 183, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(52, 211, 153, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(16, 185, 129, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(5, 150, 105, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(4, 120, 87, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(6, 95, 70, var(--blip-placeholder-opacity));
+}
+
+.placeholder-green-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(6, 78, 59, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(239, 246, 255, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(219, 234, 254, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(191, 219, 254, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(147, 197, 253, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(96, 165, 250, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(59, 130, 246, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(37, 99, 235, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(29, 78, 216, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(30, 64, 175, var(--blip-placeholder-opacity));
+}
+
+.placeholder-blue-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(30, 58, 138, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(238, 242, 255, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(224, 231, 255, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(199, 210, 254, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(165, 180, 252, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(129, 140, 248, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(99, 102, 241, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(79, 70, 229, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(67, 56, 202, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(55, 48, 163, var(--blip-placeholder-opacity));
+}
+
+.placeholder-indigo-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(49, 46, 129, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(245, 243, 255, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(237, 233, 254, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(221, 214, 254, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(196, 181, 253, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(167, 139, 250, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(139, 92, 246, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(124, 58, 237, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(109, 40, 217, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(91, 33, 182, var(--blip-placeholder-opacity));
+}
+
+.placeholder-purple-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(76, 29, 149, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-50::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(253, 242, 248, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-100::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(252, 231, 243, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-200::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(251, 207, 232, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-300::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(249, 168, 212, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-400::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(244, 114, 182, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-500::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(236, 72, 153, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-600::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(219, 39, 119, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-700::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(190, 24, 93, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-800::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(157, 23, 77, var(--blip-placeholder-opacity));
+}
+
+.placeholder-pink-900::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(131, 24, 67, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-transparent:focus::placeholder {
+  color: transparent;
+}
+
+.focus\:placeholder-current:focus::placeholder {
+  color: currentColor;
+}
+
+.focus\:placeholder-black:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(0, 0, 0, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-white:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(255, 255, 255, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(249, 250, 251, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(243, 244, 246, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(229, 231, 235, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(209, 213, 219, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(156, 163, 175, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(107, 114, 128, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(75, 85, 99, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(55, 65, 81, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(31, 41, 55, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-gray-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(17, 24, 39, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 242, 242, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 226, 226, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 202, 202, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(252, 165, 165, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(248, 113, 113, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(239, 68, 68, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(220, 38, 38, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(185, 28, 28, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(153, 27, 27, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-red-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(127, 29, 29, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(255, 251, 235, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(254, 243, 199, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(253, 230, 138, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(252, 211, 77, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(251, 191, 36, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(245, 158, 11, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(217, 119, 6, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(180, 83, 9, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(146, 64, 14, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-yellow-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(120, 53, 15, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(236, 253, 245, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(209, 250, 229, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(167, 243, 208, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(110, 231, 183, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(52, 211, 153, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(16, 185, 129, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(5, 150, 105, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(4, 120, 87, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(6, 95, 70, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-green-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(6, 78, 59, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(239, 246, 255, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(219, 234, 254, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(191, 219, 254, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(147, 197, 253, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(96, 165, 250, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(59, 130, 246, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(37, 99, 235, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(29, 78, 216, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(30, 64, 175, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-blue-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(30, 58, 138, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(238, 242, 255, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(224, 231, 255, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(199, 210, 254, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(165, 180, 252, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(129, 140, 248, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(99, 102, 241, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(79, 70, 229, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(67, 56, 202, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(55, 48, 163, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-indigo-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(49, 46, 129, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(245, 243, 255, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(237, 233, 254, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(221, 214, 254, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(196, 181, 253, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(167, 139, 250, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(139, 92, 246, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(124, 58, 237, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(109, 40, 217, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(91, 33, 182, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-purple-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(76, 29, 149, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-50:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(253, 242, 248, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(252, 231, 243, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-200:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(251, 207, 232, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-300:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(249, 168, 212, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-400:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(244, 114, 182, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-500:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(236, 72, 153, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-600:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(219, 39, 119, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-700:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(190, 24, 93, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-800:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(157, 23, 77, var(--blip-placeholder-opacity));
+}
+
+.focus\:placeholder-pink-900:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+  color: rgba(131, 24, 67, var(--blip-placeholder-opacity));
+}
+
+.placeholder-opacity-0::placeholder {
+  --blip-placeholder-opacity: 0;
+}
+
+.placeholder-opacity-5::placeholder {
+  --blip-placeholder-opacity: 0.05;
+}
+
+.placeholder-opacity-10::placeholder {
+  --blip-placeholder-opacity: 0.1;
+}
+
+.placeholder-opacity-20::placeholder {
+  --blip-placeholder-opacity: 0.2;
+}
+
+.placeholder-opacity-25::placeholder {
+  --blip-placeholder-opacity: 0.25;
+}
+
+.placeholder-opacity-30::placeholder {
+  --blip-placeholder-opacity: 0.3;
+}
+
+.placeholder-opacity-40::placeholder {
+  --blip-placeholder-opacity: 0.4;
+}
+
+.placeholder-opacity-50::placeholder {
+  --blip-placeholder-opacity: 0.5;
+}
+
+.placeholder-opacity-60::placeholder {
+  --blip-placeholder-opacity: 0.6;
+}
+
+.placeholder-opacity-70::placeholder {
+  --blip-placeholder-opacity: 0.7;
+}
+
+.placeholder-opacity-75::placeholder {
+  --blip-placeholder-opacity: 0.75;
+}
+
+.placeholder-opacity-80::placeholder {
+  --blip-placeholder-opacity: 0.8;
+}
+
+.placeholder-opacity-90::placeholder {
+  --blip-placeholder-opacity: 0.9;
+}
+
+.placeholder-opacity-95::placeholder {
+  --blip-placeholder-opacity: 0.95;
+}
+
+.placeholder-opacity-100::placeholder {
+  --blip-placeholder-opacity: 1;
+}
+
+.focus\:placeholder-opacity-0:focus::placeholder {
+  --blip-placeholder-opacity: 0;
+}
+
+.focus\:placeholder-opacity-5:focus::placeholder {
+  --blip-placeholder-opacity: 0.05;
+}
+
+.focus\:placeholder-opacity-10:focus::placeholder {
+  --blip-placeholder-opacity: 0.1;
+}
+
+.focus\:placeholder-opacity-20:focus::placeholder {
+  --blip-placeholder-opacity: 0.2;
+}
+
+.focus\:placeholder-opacity-25:focus::placeholder {
+  --blip-placeholder-opacity: 0.25;
+}
+
+.focus\:placeholder-opacity-30:focus::placeholder {
+  --blip-placeholder-opacity: 0.3;
+}
+
+.focus\:placeholder-opacity-40:focus::placeholder {
+  --blip-placeholder-opacity: 0.4;
+}
+
+.focus\:placeholder-opacity-50:focus::placeholder {
+  --blip-placeholder-opacity: 0.5;
+}
+
+.focus\:placeholder-opacity-60:focus::placeholder {
+  --blip-placeholder-opacity: 0.6;
+}
+
+.focus\:placeholder-opacity-70:focus::placeholder {
+  --blip-placeholder-opacity: 0.7;
+}
+
+.focus\:placeholder-opacity-75:focus::placeholder {
+  --blip-placeholder-opacity: 0.75;
+}
+
+.focus\:placeholder-opacity-80:focus::placeholder {
+  --blip-placeholder-opacity: 0.8;
+}
+
+.focus\:placeholder-opacity-90:focus::placeholder {
+  --blip-placeholder-opacity: 0.9;
+}
+
+.focus\:placeholder-opacity-95:focus::placeholder {
+  --blip-placeholder-opacity: 0.95;
+}
+
+.focus\:placeholder-opacity-100:focus::placeholder {
+  --blip-placeholder-opacity: 1;
+}

@@ -1,0 +1,11 @@
+/*
+	BLIPCSS BY GRAIG DEV @graidev - https://graigdev.com
+
+	Everything bootstrap needs to consume tailwindcss
+	
+ */
+@import "resources/base.css";
+@import "resources/position.css";
+@import "resources/width.css";
+@import "resources/height.css";
+@import "resources/background.css";

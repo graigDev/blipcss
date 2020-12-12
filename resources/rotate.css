@@ -1,0 +1,208 @@
+
+/*
+	CSS  By Graig Dev https://graigdev.com - @graigdev
+*/
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-1 {
+  transform: rotate(1deg);
+}
+
+.rotate-2 {
+  transform: rotate(2deg);
+}
+
+.rotate-3 {
+  transform: rotate(3deg);
+}
+
+.rotate-6 {
+  transform: rotate(6deg);
+}
+
+.rotate-12 {
+  transform: rotate(12deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.-rotate-180 {
+  transform: rotate(-180deg);
+}
+
+.-rotate-90 {
+  transform: rotate(-90deg);
+}
+
+.-rotate-45 {
+  transform: rotate(-45deg);
+}
+
+.-rotate-12 {
+  transform: rotate(-12deg);
+}
+
+.-rotate-6 {
+  transform: rotate(-6deg);
+}
+
+.-rotate-3 {
+  transform: rotate(-3deg);
+}
+
+.-rotate-2 {
+  transform: rotate(-2deg);
+}
+
+.-rotate-1 {
+  transform: rotate(-1deg);
+}
+
+.hover\:rotate-0:hover {
+  transform: rotate(0deg);
+}
+
+.hover\:rotate-1:hover {
+  transform: rotate(1deg);
+}
+
+.hover\:rotate-2:hover {
+  transform: rotate(2deg);
+}
+
+.hover\:rotate-3:hover {
+  transform: rotate(3deg);
+}
+
+.hover\:rotate-6:hover {
+  transform: rotate(6deg);
+}
+
+.hover\:rotate-12:hover {
+  transform: rotate(12deg);
+}
+
+.hover\:rotate-45:hover {
+  transform: rotate(45deg);
+}
+
+.hover\:rotate-90:hover {
+  transform: rotate(90deg);
+}
+
+.hover\:rotate-180:hover {
+  transform: rotate(180deg);
+}
+
+.hover\:-rotate-180:hover {
+  transform: rotate(-180deg);
+}
+
+.hover\:-rotate-90:hover {
+  transform: rotate(-90deg);
+}
+
+.hover\:-rotate-45:hover {
+  transform: rotate(-45deg);
+}
+
+.hover\:-rotate-12:hover {
+  transform: rotate(-12deg);
+}
+
+.hover\:-rotate-6:hover {
+  transform: rotate(-6deg);
+}
+
+.hover\:-rotate-3:hover {
+  transform: rotate(-3deg);
+}
+
+.hover\:-rotate-2:hover {
+  transform: rotate(-2deg);
+}
+
+.hover\:-rotate-1:hover {
+  transform: rotate(-1deg);
+}
+
+.focus\:rotate-0:focus {
+  transform: rotate(0deg);
+}
+
+.focus\:rotate-1:focus {
+  transform: rotate(1deg);
+}
+
+.focus\:rotate-2:focus {
+  transform: rotate(2deg);
+}
+
+.focus\:rotate-3:focus {
+  transform: rotate(3deg);
+}
+
+.focus\:rotate-6:focus {
+  transform: rotate(6deg);
+}
+
+.focus\:rotate-12:focus {
+  transform: rotate(12deg);
+}
+
+.focus\:rotate-45:focus {
+  transform: rotate(45deg);
+}
+
+.focus\:rotate-90:focus {
+  transform: rotate(90deg);
+}
+
+.focus\:rotate-180:focus {
+  transform: rotate(180deg);
+}
+
+.focus\:-rotate-180:focus {
+  transform: rotate(-180deg);
+}
+
+.focus\:-rotate-90:focus {
+  transform: rotate(-90deg);
+}
+
+.focus\:-rotate-45:focus {
+  transform: rotate(-45deg);
+}
+
+.focus\:-rotate-12:focus {
+  transform: rotate(-12deg);
+}
+
+.focus\:-rotate-6:focus {
+  transform: rotate(-6deg);
+}
+
+.focus\:-rotate-3:focus {
+  transform: rotate(-3deg);
+}
+
+.focus\:-rotate-2:focus {
+  transform: rotate(-2deg);
+}
+
+.focus\:-rotate-1:focus {
+  transform: rotate(-1deg);
+}

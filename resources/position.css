@@ -1,0 +1,27 @@
+
+/*
+	CSS Position 
+
+	By Graig Dev https://graigdev.com - @graigdev
+ */
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
